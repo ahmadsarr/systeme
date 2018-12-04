@@ -1,0 +1,30 @@
+ginestra3u@fst-ats-309-l19:~/Espace-Etudiant/S5/Systeme2/TP5/Partie2$ time ./Pere ExtraitLeMonde2002.txt test 1
+real	0m0.822s
+user	0m0.275s
+sys	0m0.017s
+
+
+ginestra3u@fst-ats-309-l19:~/Espace-Etudiant/S5/Systeme2/TP5/Partie2$ time ./Pere ExtraitLeMonde2002.txt test 2
+real	0m0.844s
+user	0m0.303s
+sys	0m0.018s
+
+
+ginestra3u@fst-ats-309-l19:~/Espace-Etudiant/S5/Systeme2/TP5/Partie2$ time ./Pere ExtraitLeMonde2002.txt test 4
+real	0m0.626s
+user	0m0.282s
+sys	0m0.037s
+
+
+ginestra3u@fst-ats-309-l19:~/Espace-Etudiant/S5/Systeme2/TP5/Partie2$ time ./Pere ExtraitLeMonde2002.txt test 8
+
+real	0m2.311s
+user	0m0.415s
+sys	0m0.099s
+
+
+
+
+real est le temps d'exectution total: du début jusqu'à la fin de l'exécution.
+user est la temps depensé par le cpu pour le mode utilisateur (en dehors du temps de kernel) pour l'exécution
+sys est le temps depensé par le cpu pour faire fonctionner les fichier kernel
